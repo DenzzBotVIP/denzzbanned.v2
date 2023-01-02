@@ -22,7 +22,7 @@ chats: {},
 ...(global.db || {})
 }
 
-global.ownerName = 'DenzzBanned-REAL'
+global.ownerName = '𝐃𝐞𝐧𝐳𝐳𝐁𝐚𝐧𝐧𝐞𝐝-𝐑𝐞𝐚𝐥'
 global.ownerNumber = ["085723219491@s.whatsapp.net"]
 global.prefa = ['','.']
 global.mess = {
@@ -217,20 +217,20 @@ messageId: ""
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(rixxbotwhatsapp.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `RixxMods🔥 : ${runtime(process.uptime())}`,jpegThumbnail: fs.readFileSync('./image/thumbnail.jpg')}}}
 switch (command) {
 case 'menu':{
-rixx.sendMessage(rixxbotwhatsapp.chat, {text: `┏━━⊱ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 
+rixx.sendMessage(rixxbotwhatsapp.chat, {text: `┏━━⊱ 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 
 ┣❏ ᴏᴡɴᴇʀ : 6285723219491
-┣❏ ɴᴀᴍᴇ ʙᴏᴛ : *VIPbanned👑*
+┣❏ ɴᴀᴍᴇ ʙᴏᴛ : 𝐕𝐈𝐏𝐛𝐚𝐧𝐧𝐞𝐝👑
 ┣❏ ʀᴜɴɴɪɴɢ : ᴘᴀɴᴇʟᴏɴʟʏ
 ┗━━⊱
-╔══════[ 𝙊𝙏𝙃𝙀𝙍 ]══════⊱
-╠➤sewa
-╠➤stats (Untuk Cek Status) 
-╠➤restart
-╠➤addakses @
-╠➤delakses @
-╠➤kick @
-╚════[ *DenzzBanned* ]══════⊱
-╔══════[ 𝘽𝙐𝙂 𝙈𝙀𝙉𝙐 ]══════⊱
+╔══════[ 𝐎𝐓𝐇𝐄𝐑 ]══════⊱
+╠➤ 𝐬𝐞𝐰𝐚
+╠➤ 𝐬𝐭𝐚𝐭𝐬 [𝐮𝐧𝐭𝐮𝐤 𝐜𝐡𝐞𝐜𝐤 𝐬𝐭𝐚𝐭𝐮𝐬]
+╠➤ 𝐫𝐞𝐬𝐭𝐚𝐫𝐭 [𝐨𝐰𝐧𝐞𝐫]
+╠➤ 𝐚𝐝𝐝𝐚𝐤𝐬𝐞𝐬 @
+╠➤ 𝐝𝐞𝐥𝐚𝐤𝐬𝐞𝐬 @
+╠➤ 𝐤𝐢𝐜𝐤 @
+╚════[ 𝐃𝐞𝐧𝐳𝐳𝐁𝐚𝐧𝐧𝐞𝐝 ]══════⊱
+╔══════[ 𝐁𝐔𝐆 𝐌𝐄𝐍𝐔 ]══════⊱
 ╠➤ 🗿 62xxx
 ╠➤ 🔥 62xxx
 ╠➤ ❤️‍🔥 62xxx
@@ -256,7 +256,7 @@ rixx.sendMessage(rixxbotwhatsapp.chat, {text: `┏━━⊱ 𝙄𝙉𝙁𝙊 �
 ╠➤bugslebew 62xxxxx
 ╠➤bugneko 62xxxxx
 ╠➤bughentai 62xxxxx
-╚════[ *DenzzBanned* ]══════⊱`}, {quoted: kafloc})
+╚════[ 𝐃𝐞𝐧𝐳𝐳𝐁𝐚𝐧𝐧𝐞𝐝 ]══════⊱`}, {quoted: kafloc})
 }
 break
 case 'kick': {
@@ -287,13 +287,13 @@ let { stdout, stderr } = o
 break
 case 'sewa':
 textsewa = `
-╔══════[ *sewa-menu* ]══════⊱
+╔══════[ 𝐬𝐞𝐰𝐚-𝐦𝐞𝐧𝐮 ]══════⊱
 ╠➤ ᴍᴜʀɪᴅ ʙᴜɢ ᴡᴀ 𝟷𝟻ᴋ
 ╠➤ sᴇᴡᴀ ʙᴏᴛ 𝟷ʙʟɴ 𝟻𝟶ᴋ
 ╠➤ ᴊᴅɪ ʙᴏᴛ ᴘᴇʀᴍᴀɴᴇɴ 𝟷𝟸𝟶ᴋ
 ╠➤ sᴄ? 𝟷𝟶𝟶ᴋ
 ╠➤ wa.me/6285723219491
-╚════[ *DenzzBanend* ]══════⊱
+╚════[ 𝐃𝐞𝐧𝐳𝐳𝐁𝐚𝐧𝐧𝐞𝐝 ]══════⊱
 `
 rixxbotwhatsapp.reply(textsewa)
 break
@@ -328,7 +328,7 @@ let timestamp = speed()
 let latensi = speed() - timestamp
 respon = `
 Kecepatan Respon ${latensi.toFixed(4)} _Second_ \nRuntime : ${runtime(process.uptime())}
-💻 *Info Server Bot*
+💻 𝐈𝐧𝐟𝐨 𝐒𝐞𝐫𝐯𝐞𝐫 𝐁𝐨𝐭🤨
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 `
 rixxbotwhatsapp.reply(respon)
