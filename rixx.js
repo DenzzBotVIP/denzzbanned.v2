@@ -216,12 +216,10 @@ messageId: ""
 }
 let kafloc = {key : {participant : '0@s.whatsapp.net', ...(rixxbotwhatsapp.chat ? { remoteJid: `status@broadcast` } : {}) },message: {locationMessage: {name: `RixxMods🔥 : ${runtime(process.uptime())}`,jpegThumbnail: fs.readFileSync('./image/thumbnail.jpg')}}}
 switch (command) {
-case 'bugmenu'
-case 'menu':
-rixx.sendMessage(rixxbotwhatsapp.chat, {text: `
-┏━━⊱ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 
-┣❏ ᴏᴡɴᴇʀ : wa.me/6285723219491
-┣❏ ɴᴀᴍᴇ ʙᴏᴛ : *VIPbanned*
+case 'menu':{
+rixx.sendMessage(rixxbotwhatsapp.chat, {text: `┏━━⊱ 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 
+┣❏ ᴏᴡɴᴇʀ : 6285723219491
+┣❏ ɴᴀᴍᴇ ʙᴏᴛ : *VIPbanned👑*
 ┣❏ ʀᴜɴɴɪɴɢ : ᴘᴀɴᴇʟᴏɴʟʏ
 ┗━━⊱
 ╔══════[ 𝙊𝙏𝙃𝙀𝙍 ]══════⊱
